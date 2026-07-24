@@ -52,7 +52,8 @@ header img {
 }
 
 main {
-    background: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.719)), url('/img/d481f3c72e283309071f79e01b05c06d.gif') no-repeat center/cover;
+    background: #257aba;
+    background: linear-gradient(90deg,rgb(8, 26, 40) 0%, rgba(4, 13, 8, 1) 78%, rgb(29, 57, 117) 100%);
     text-align: center;
     color: var(--white);
     padding: 25px;
