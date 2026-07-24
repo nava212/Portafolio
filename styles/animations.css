@@ -1,0 +1,11 @@
+.links-header:hover {
+    color: #d88bce;
+    text-decoration: underline;
+    transition: 200ms;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.75);
+    transition: 400ms;
+}
