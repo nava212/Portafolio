@@ -20,7 +20,7 @@ body {
 
 header {
     top: 0;
-    position: relative;
+    position: fixed;
     width: 100%;
     z-index: 1000;
     padding: 10px;
@@ -29,10 +29,15 @@ header {
     align-items: center;
     justify-content: space-around;
     height: 70px;
+    margin-bottom: 70px;
 }
 
 header img {
     width: 100px;
+}
+
+.title-name {
+    color: white;
 }
 
 .links-container {
@@ -57,6 +62,7 @@ main {
     text-align: center;
     color: var(--white);
     padding: 25px;
+    margin-top: 70px;
 }
 
 .main-presentation {
@@ -80,7 +86,7 @@ main {
     display: flex;
     justify-content: space-between;
     padding: 10px 5px 10px 5px;
-    margin: 20px 20px;
+    margin: 10px;
 }
 
 .card {
@@ -125,10 +131,79 @@ main {
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.skills-title{
+    margin: 15px;
+    font-size: 35px;
+}
+
+.tecnologys {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(82, 70, 238, 0.5);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    background: #020024;
+    background: rgba(34, 110, 125, 0.5);
+    border-radius: 10px;
+    transition: 400ms;
+}
+.skills img {
+    width: 70px;
+    height: 75px;
+}
+
+.card-tec {
+    margin: 15px;
+}
 
 footer {
     background: #2E3532;
     color: var(--white);
     width: 100%;
     text-align: center;
+    padding: 15px;
 }
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.form-contact {
+    background: #564b4b;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.75);
+}
+
+input {
+    text-align: center;
+    width: 400px;
+    margin: 10px;
+    font-size: 18px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    transition: 400ms;
+}
+
+.btn-send {
+    cursor: pointer;
+    border: none;
+    transition: 400ms;
+}
+
+textarea {
+    margin: 5px;
+    font-size: 16px;
+}
+

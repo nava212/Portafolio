@@ -5,7 +5,25 @@
 }
 
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.75);
     transition: 400ms;
+}
+
+.skills:hover {
+    transform: translateY(-25px) scale(1.2);
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.75);
+    transition: 400ms;
+}
+
+input:hover {
+    background: wheat;
+    transition: 400ms;
+}
+
+.btn-send:hover {
+    background: #ABA868;
+    color: white;
+    transition: 400ms;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.75);
 }
