@@ -37,7 +37,7 @@ header img {
 }
 
 .title-name {
-    color: white;
+    color: var(--white);
 }
 
 .links-container {
@@ -164,33 +164,69 @@ main {
     margin: 15px;
 }
 
+.portfolio-title {
+    margin: 15px;
+    font-size: 35px;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    width: 90%;
+}
+
+.card-port {
+    background: rgba(34, 125, 90, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 400ms;
+}
+
+.card-port img {
+    width: 600px;
+    margin: 20px;
+}
+
+.card-port a {
+    color: var(--white);
+    text-decoration: none;
+    background: #961D4E;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 400ms;
+}
+
 footer {
     background: #2E3532;
     color: var(--white);
     width: 100%;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 15px;
 }
 
 .form-container {
     display: flex;
     justify-content: space-around;
-    
 }
 
 .form-contact {
     background: #564b4b;
     border-radius: 20px;
+    font-size: 28px;
     padding: 15px;
     box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.75);
 }
 
 input {
     text-align: center;
-    width: 400px;
+    width: 500px;
     margin: 10px;
     font-size: 18px;
-    height: 40px;
+    height: 50px;
     border-radius: 15px;
     border: none;
     transition: 400ms;
@@ -205,5 +241,5 @@ input {
 textarea {
     margin: 5px;
     font-size: 16px;
+    border-radius: 5px;
 }
-

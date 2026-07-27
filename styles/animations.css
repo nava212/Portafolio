@@ -5,7 +5,7 @@
 }
 
 .card:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
     box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.75);
     transition: 400ms;
 }
@@ -14,6 +14,17 @@
     transform: translateY(-25px) scale(1.2);
     box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.75);
     transition: 400ms;
+}
+
+.card-port:hover{
+    transform: scale(1.1);
+    transition: 400ms;
+}
+
+.card-port a:hover{
+    background: #A60067;
+    transition: 400ms;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.75);
 }
 
 input:hover {
