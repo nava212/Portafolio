@@ -178,7 +178,7 @@ main {
 }
 
 .card-port {
-    background: rgba(34, 125, 90, 0.5);
+    background: rgba(68, 196, 147, 0.5);
     padding: 20px;
     border-radius: 20px;
     text-align: center;
@@ -186,7 +186,8 @@ main {
 }
 
 .card-port img {
-    width: 600px;
+    width: 450px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.75);
     margin: 20px;
 }
 
@@ -208,16 +209,13 @@ footer {
     padding: 15px;
 }
 
-.form-container {
-    display: flex;
-    justify-content: space-around;
-}
-
 .form-contact {
     background: #564b4b;
     border-radius: 20px;
     font-size: 28px;
     padding: 15px;
+    width: 50%;
+    margin: auto;
     box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.75);
 }
 
@@ -226,7 +224,7 @@ input {
     width: 500px;
     margin: 10px;
     font-size: 18px;
-    height: 50px;
+    height: 40px;
     border-radius: 15px;
     border: none;
     transition: 400ms;
@@ -240,6 +238,26 @@ input {
 
 textarea {
     margin: 5px;
-    font-size: 16px;
     border-radius: 5px;
+}
+
+.links-container-footer{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+}
+
+.links-container-footer li{
+    list-style: none;
+    margin: 25px;
+}
+
+.links-container-footer a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.text-muted {
+    margin: 15px;
 }
