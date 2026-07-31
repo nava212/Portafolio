@@ -1,6 +1,5 @@
 .links-header:hover {
     color: #d88bce;
-    text-decoration: underline;
     transition: 200ms;
 }
 
@@ -33,8 +32,13 @@ input:hover {
 }
 
 .btn-send:hover {
-    background: #ABA868;
-    color: white;
+    background: #c6c15c;
     transition: 400ms;
     box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.75);
+}
+
+.links-container-footer a img:hover {
+    background: rgba(0, 0, 0, 0.461);
+    transition: 400ms;
+    transform: translateY(-10px);
 }
